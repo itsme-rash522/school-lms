@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "open_sans";
+    src: url("fonts/OpenSans-Light.ttf");
+}
+
+@font-face {
+    font-family: "prompt";
+    src: url("fonts/Prompt-Thin.ttf");
+}
+
+.b1 {
+    font-family: "open_sans";
+    text-decoration: none;
+    background-color: rgba(193, 170, 255, 0.193);
+    color: rgb(0, 0, 94);
+}
+
+.b2 {
+    background-color: hsl(0, 0%, 98%);
+    font-family: "open_sans";
+    text-decoration: none;
+}
+
+.b3 {
+    font-family: "open_sans";
+    text-decoration: none;
+    color: rgb(0, 0, 94);
+}
+
+.b4 {
+    font-family: "open_sans";
+    text-decoration: none;
+}
+
+.c {
+    margin-left: 0px;
+    transition: all 0.4s ease;
+
+}
+
+.c:hover {
+    margin-left: 10px;
+    transition: all 0.4s ease;
+}
+
+.sidebar {
+    position: relative;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+    width: 300;
+    height: 100vh;
+    border-radius: 6px;
+}
+
+@media(min-width:1000px) {
+
+    .sidebar {
+        position: fixed;
+        box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+        padding: 20;
+        border-radius: 6px;
+    }
+
+}
+
+.t {
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+    border-radius: 10px;
+    width: 100%;
+    background-color: white;
+}
+
+.t tr,
+td {
+    border-bottom: 1px solid black;
+    border-color: rgb(55, 55, 55);
+}
+
+.t tr {
+    font-size: x-large;
+}
+
+.t th {
+    font-size: 30px;
+    padding-top: 20;
+}
